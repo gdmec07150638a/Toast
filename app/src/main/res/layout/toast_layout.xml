@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/toast_bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示默认Toast"
+            />
+        <Button
+            android:id="@+id/toast_bt2"
+            android:text="改变位置的Toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/toast_bt3"
+            android:text="显示图片的Toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/toast_bt4"
+            android:text="自定义的Toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
